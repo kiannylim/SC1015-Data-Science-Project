@@ -28,6 +28,12 @@ In a competitive job landscape, what should companies do in order to retain tale
 
 
 # Conclusion
+- Resampling of dataset using SMOTE() significantly increases performance of decision tree/random forest in predicting "Yes" attrition values
+- 'StandardHours','EmployeeCount' and 'Over18', are variables with no deviation. There is no relationship with Attrition.
+- 'EmployeeNumber' is an index with no relation with Attrition
+- Through Chi Square Test, 'MonthlyIncome','DistanceFromHome','PercentSalaryHike','PerformanceRating',
+'YearsSinceLastPromotion' are variables dropped since they are independent on Attrition.
+- Random Forest performed consistently well with remaining variables after resampling.
 
 
 # What did we learn from this project?
