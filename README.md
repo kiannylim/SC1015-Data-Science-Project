@@ -29,9 +29,9 @@ kiannylim
 
 # What did we learn from this project?
 - Handling skewed datasets by using resampling from imblearn packages
-- Random Forest Classifier
-- Using Label Encoding and One Hot Encoding to turn categorical data into integer format
+- Random Forest Classifier using sklearn.ensemble package
+- Using Label Encoding and One Hot Encoding to turn categorical data into integer format using sklearn.preprocessing package
 - Using GitHub
 - Using contingency Table for chi square test
-- Using Chi Square test to find independence of variables to clean data
+- Using Chi Square test to find independence of variables to clean data using scipy package
 - Converting categorical/numerical columns to a list
