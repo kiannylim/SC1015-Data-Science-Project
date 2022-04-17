@@ -38,3 +38,11 @@ In a competitive job landscape, what should companies do in order to retain tale
 - Using contingency Table for chi square test
 - Using Chi Square test to find independence of variables to clean data using scipy package
 - Converting categorical/numerical columns to a list
+
+# References
+https://machinelearningmastery.com/smote-oversampling-for-imbalanced-classification/
+https://www.datacamp.com/community/tutorials/random-forests-classifier-python
+https://www.geeksforgeeks.org/contingency-table-in-python/
+https://medium.com/swlh/how-to-run-chi-square-test-in-python-4e9f5d10249d
+https://pbpython.com/categorical-encoding.html
+https://cmdlinetips.com/2020/04/how-to-get-column-names-as-list-in-pandas/
