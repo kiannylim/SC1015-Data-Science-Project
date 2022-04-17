@@ -20,7 +20,7 @@
 - How should we predict the attrition rate of employee based on workplace/personal factors?
 
 # Motivation
-In a competitive job landscape, what should companies do in order to retain and attract talented workers?
+In a competitive job landscape, what should companies do in order to retain talented or desirable workers?
 
 # Models Used
 1) Decision Tree
