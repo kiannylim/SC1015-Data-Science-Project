@@ -12,9 +12,9 @@
  5) Random Forest Classifier
 
 #Contributors
-Xcoga
-DivineValleys
-kiannylim
+- Xcoga
+- DivineValleys
+- kiannylim
 
 # Problem Definition
 - How should we predict the attrition rate of employee based on workplace/personal factors?
