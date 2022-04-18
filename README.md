@@ -20,7 +20,10 @@
 - How should we predict the attrition rate of employee based on workplace/personal factors?
 
 # Motivation
-In a competitive job landscape, what should companies do in order to retain talented or desirable workers?
+Attrition rate is the rate at which people leave the company over time. 
+It is a metric that determines how well the company is at retaining employees.
+Companies need to retain talents and capable workers in order to maintain functionality and competitiveness with other businesses in the industry.
+Hence, we need to know what factors to improve upon in order to retain desirable employees
 
 # Models Used
 1) Decision Tree
