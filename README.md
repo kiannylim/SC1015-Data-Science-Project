@@ -39,11 +39,12 @@ In a competitive job landscape, what should companies do in order to retain tale
 # What did we learn from this project?
 - Handling skewed datasets by using resampling from imblearn packages
 - Random Forest Classifier using sklearn.ensemble package
-- Using Label Encoding and One Hot Encoding to turn categorical data into integer format using sklearn.preprocessing package
+- Using Label Encoding to turn categorical data into integer format using sklearn.preprocessing package
 - Using GitHub
 - Using contingency Table for chi square test
 - Using Chi Square test to find independence of variables to clean data using scipy package
 - Converting categorical/numerical columns to a list
+- Using cross validation to tune hyperparameters for Random Forest model
 
 # References
 - https://machinelearningmastery.com/smote-oversampling-for-imbalanced-classification/
@@ -52,3 +53,4 @@ In a competitive job landscape, what should companies do in order to retain tale
 - https://medium.com/swlh/how-to-run-chi-square-test-in-python-4e9f5d10249d
 - https://pbpython.com/categorical-encoding.html
 - https://cmdlinetips.com/2020/04/how-to-get-column-names-as-list-in-pandas/
+- https://towardsdatascience.com/cross-validation-and-grid-search-efa64b127c1b
