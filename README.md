@@ -3,13 +3,14 @@
  # About
  
  Mini-Project for SC1015 (Introduction to Data Science and Artificial Intelligence), focuses on attrition of employees.
+ Dataset obtained from Kaggle, IBM HR Analytics Employee Attrition & Performance by PAVANSUBHASH
  For detailed walkthrough, please view the source code in order from:
  
- 1) Data Extraction
- 2) Data Visualisation
- 3) Data Resampling and Splitting
- 4) Decision Tree
- 5) Random Forest Classifier
+ 1) DataVisualisation.ipynb
+ 2) DataCleaning.ipynb
+ 3) MachineLearningModel_(Non_resampled).ipynb
+ 4) Resampling.ipynb
+ 5) MachineLearningModel_(resampled).ipynb
 
 #Contributors
 - Xcoga
@@ -17,7 +18,7 @@
 - kiannylim
 
 # Problem Definition
-- How should we predict the attrition rate of employee based on workplace/personal factors?
+- Which factors play a bigger role in determining attrition rates in company (Personal/Workplace)?
 
 # Motivation
 Attrition rate is the rate at which people leave the company over time. 
@@ -37,6 +38,7 @@ Hence, we need to know what factors to improve upon in order to retain desirable
 - Through Chi Square Test, 'MonthlyIncome','DistanceFromHome','PercentSalaryHike','PerformanceRating',
 'YearsSinceLastPromotion' are variables dropped since they are independent on Attrition.
 - Random Forest performed consistently well with remaining variables after resampling.
+- Feature Importances showed that JobSatisfaction, Age, JobInvolement, TotalWorkingYears and EnvironmentalSatisfaction (in decreasing order) are the top 5 most important features in predicting attrition rates
 
 
 # What did we learn from this project?
@@ -48,8 +50,10 @@ Hence, we need to know what factors to improve upon in order to retain desirable
 - Using Chi Square test to find independence of variables to clean data using scipy package
 - Converting categorical/numerical columns to a list
 - Using cross validation to tune hyperparameters for Random Forest model
+- Feature Importance analysis to figure out which variables are the most important in predicting attrition in workers
 
 # References
+- https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset
 - https://machinelearningmastery.com/smote-oversampling-for-imbalanced-classification/
 - https://www.datacamp.com/community/tutorials/random-forests-classifier-python
 - https://www.geeksforgeeks.org/contingency-table-in-python/
@@ -57,3 +61,4 @@ Hence, we need to know what factors to improve upon in order to retain desirable
 - https://pbpython.com/categorical-encoding.html
 - https://cmdlinetips.com/2020/04/how-to-get-column-names-as-list-in-pandas/
 - https://towardsdatascience.com/cross-validation-and-grid-search-efa64b127c1b
+- https://mljar.com/blog/feature-importance-in-random-forest/#:~:text=Random%20Forest%20Built%2Din%20Feature%20Importance&text=It%20is%20a%20set%20of,sets%20with%20similars%20responses%20within
