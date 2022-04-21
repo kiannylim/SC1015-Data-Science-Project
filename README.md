@@ -4,8 +4,8 @@
  
  Mini-Project for SC1015 (Introduction to Data Science and Artificial Intelligence), focuses on attrition of employees.
  Dataset obtained from Kaggle, IBM HR Analytics Employee Attrition & Performance by PAVANSUBHASH
- For detailed walkthrough, please view the source code in order from:
  
+ For detailed walkthrough, please view the source code in order from:
  1) DataVisualisation.ipynb
  2) DataCleaning.ipynb
  3) MachineLearningModel_(Non_resampled).ipynb
